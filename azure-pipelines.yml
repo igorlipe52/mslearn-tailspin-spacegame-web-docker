@@ -37,4 +37,5 @@ stages:
         inputs:
           appName: $(WebAppName)
           azureSubscription: 'Resource Manager - Tailspin - Space Game2'
+          imageName: $(RegistryName)/$(webRepository):$(build.buildId)
       - task: PowerShell@2
