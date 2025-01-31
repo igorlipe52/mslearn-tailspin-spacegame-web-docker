@@ -36,5 +36,5 @@ stages:
       - task: AzureWebAppContainer@1
         inputs:
           appName: $(WebAppName)
-          azureSubscription: 'Resource Manager - Tailspin - Space Game'
+          azureSubscription: 'Resource Manager - Tailspin - Space Game2'
       - task: PowerShell@2
